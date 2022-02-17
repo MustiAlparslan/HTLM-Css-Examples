@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background:  #E5E5E5;
+}
+.container{
+    width: 562px;
+    max-height: 607px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    padding: 50px;
+    display: flex;
+    gap: 16px;
+    box-shadow:  10px 10px  0 #E6EFFA;
+}
+/* .container .profile{
+    width: 114px;
+    height: 114px;
+    /* background-image: url(./Ellipse\ 1.png); 
+} 
+*/
+.container .content{
+    width: 332px;
+    height:  507px;
+    color: #1C2B62;
+}
+.container .content ul li{
+    margin-bottom: 10px;
+}
+.container .content ul li:nth-child(1){
+    margin-top: 10px;
+}
+
+.container .content ul li h1{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.container .content ul li p:nth-child(1){
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+.container #badges{
+    margin-bottom: 28px;
+}
+.container #badges div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.container .text{
+    width: 100%;
+    min-height: 110px;
+    margin-bottom: 28px;
+}
+
+.container input{
+    width: 111px;
+    height: 44px;
+    font-size: 16px;
+    color: #1C2B62;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid #C4CADF;
+}
+.container input:hover{
+    background: #C4CADF;
+    border:1px solid #1C2B62;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width:80%;
+        flex-direction: column;
+        height: 125%;
+    }
+    .container .profile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container .text{
+        margin-bottom: 25px;
+        width: 70%;
+    }    
+}

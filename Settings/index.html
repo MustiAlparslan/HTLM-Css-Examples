@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>settings</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <label class="set-label" for="ch-1" style="background-color: red;">Setting</label>
+    <input type="checkbox"  id="ch-1">
+
+    
+    <div class="main" id="main">
+        <div class="head">
+            Settings
+        </div>
+        <ul class="ul-1">
+            <li>
+                <span>Dark mode</span>
+                <label>
+                    <input onclick="dark_Mode()"  type="checkbox" name="" id="dark-mode">
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <span>Desktop notifications</span>
+                <label>
+                    <input type="checkbox" name="" id="">
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <span>Focused inbox</span>
+                <label>
+                    <input type="checkbox">
+                    <span></span>
+                </label>
+            </li>
+        </ul>
+        <div class="head-2">
+            Coversation view
+        </div>
+        <ul class="ul-2">
+            <li>
+                <label>
+                    <input type="radio">
+                    <span>Newest on top</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio">
+                    <span>Newest on bottom</span>
+                </label>
+
+            </li>
+            <li>
+                <label>
+                    <input type="radio">
+                    <span>Off</span>
+                </label>
+
+            </li>
+        </ul><div class="head-3">
+            Reading panel
+        </div>
+        <ul class="ul-3">
+            <li>
+                <label for="ul-3-r-1">
+                    <input type="radio" id="ul-3-r-1" value="Shon on the right">
+                    Shon on the right
+                </label>
+            
+                <label>
+                    <input type="radio" value="Show on the bottom">
+                    Show on the bottom
+                </label>
+
+                <label>
+                    <input type="radio" value="Hide" name="Hide">                    
+                    Hide
+                </label>
+            </li>
+        </ul>
+       
+       
+        <p> View all settings</p>
+    </div>
+    
+    <script>
+        function dark_Mode() {
+            var element = document.getElementById('main');
+            var element_2 = document.body;
+            element.classList.toggle("dark-mode");
+            element_2.classList.toggle('dark-mode-body');
+         }
+        
+    </script>
+</body>
+</html>

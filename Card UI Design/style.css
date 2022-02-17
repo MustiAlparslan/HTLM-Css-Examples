@@ -1,0 +1,91 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ECF0FF;
+    overflow: hidden;
+    
+}
+.container{
+    background-color: #5074F3;
+    width: 300px;
+    height: 100vh;
+    margin: 0 auto;
+}
+.container .box{
+    width: 450px;
+    height: 450px;
+    border-radius: 15px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px 90px;
+    box-shadow: 0 0  10px rgba(0, 0, 0, 0.500);
+}
+.container .box p:nth-child(1){
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.container .box p:nth-child(2){
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    
+}
+.container .forms button{
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    padding: 5px 25px;
+    border: 1px solid #5074F3;
+    border-radius: 5px;
+    color: #5074F3;
+}
+.container .forms button:hover{ 
+    color: #fff;
+    background-color: #5074F3;
+    transition: 0.3s all ease-out;
+    cursor: pointer;
+
+}
+
+
+
+.container .forms div {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.container .forms div i{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: initial; 
+    font-size: 20px;
+
+
+  
+}
+.container .forms div i:hover{    
+    color: #fff;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 50%;
+        
+    }
+    .container .box{
+        width: 90%;
+        height: 400px;
+        padding: 35px 45px; 
+
+    }
+}

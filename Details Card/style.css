@@ -1,0 +1,85 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body {
+    background: #CCBDB7;
+}
+
+.container {
+    width: 330px;
+    height: 350px;
+    background: #EDE9E2;
+    padding: 30px 35px;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.container .text{
+    position: relative;
+}
+.container .text p:nth-child(1) {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.container .text h2 {
+    margin-bottom: 10px;
+}
+.container .text i {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+.container .text i:hover {
+    cursor: pointer;
+}
+
+.container .numbers {
+    width: 55%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.container .buttons input:nth-child(1) {
+    border: 1px solid #201817;
+    color: #201817;
+}
+
+.container .buttons input:nth-child(2) {
+    background-color: #1E1411;
+    color: #fff;
+}
+
+.container .buttons input:nth-child(1),
+.container .buttons input:nth-child(2) {
+    width: 50%;
+    height: 37px;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container .date {
+    margin-top: 20px;
+    color: #6C645C;
+    font-size: 13px;
+    font-weight: 100;
+}

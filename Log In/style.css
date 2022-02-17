@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+body{
+    background: #FAFAFB;
+
+}
+.container{
+    width:  300px;
+    height: 500px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    box-shadow: 0 0 15px  0  rgba(0, 0, 0, 0.500);
+    padding: 5px 20px;
+}   
+.container .head{
+    text-align: center;
+    margin-top: 25px;
+    height: 45px;
+}
+.container .texts input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+    background-color: #eee;
+    padding: 0 10px;
+}
+.container .texts input::placeholder{
+    color: #9695AB;
+}
+
+.container .texts input:nth-child(3){
+    background: #191A48;
+    color: #fff;
+    padding: 10px 0;
+    /* height: 55px; */
+}
+.container #or{
+    text-align: center;
+    margin: 15px 0;
+    color: #9695AB;
+    font-size: 12px;
+}
+.container .other  input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+    box-shadow:  0  0 2px 0 rgba(0, 0, 0, 0.500);
+}
+.container .other div{
+    position: relative;
+
+}
+
+.container .other div:nth-child(1) img,
+.container .other div:nth-child(2) img,
+.container .other div:nth-child(3) img{
+    position: absolute;
+    top:  15px;
+    left: 38px;
+    width: 20px;
+    background-color: currentColor ;
+}
+.container .footer p{
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+}
+.container input[type=button]:hover{
+    cursor: pointer;
+}
+.container input[type=button]:nth-child(3):hover{
+    background-color: #070824c5;
+}
+.container input[type=button]:nth-child(2):hover{
+    background-color: #9695ab49   ;
+}

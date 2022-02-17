@@ -1,0 +1,157 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+
+}
+body{
+    background-color: #000;
+}
+
+
+.app{
+    height: 100%;
+    color: #fff;
+    padding: 20px 24px 10px 24px  ;
+}
+
+header {
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .head{
+    font-size: 24px;
+    font-weight: 700px;
+}
+header .options{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+
+
+section {
+    display: flex ;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    justify-content: space-between;
+
+}
+
+section .box{
+    width: 45%;
+    height: 75px;
+    background-color: #252424;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+section .box img{
+    width: 55px;
+    height: 73px;
+}
+
+
+.section-2 .head{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 49px;
+    margin-bottom: 17px;
+}
+
+.section-2 .songs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    max-height: 132px;
+}
+
+.section-2 .first-songs{
+    font-size: 15px;
+}
+.section-2 .last-songs{
+    font-size: 12px;
+}
+
+.section-2 .songs div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 100px;
+    
+}
+.section-2 .songs div span {
+    max-width: 100px;
+    height: 3px;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+footer .bottom{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: auto;
+
+}
+
+footer i{
+    font-size: 28px;
+}
+footer div span{
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 7px;
+}
+footer .bottom div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .bottom div:hover{
+    cursor: pointer;
+    color: aqua;
+}
+
+body::-webkit-scrollbar {
+    background-color: #fff;
+    width: 11px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.500);
+    border-radius: 11px;
+}
+
+body::-webkit-scrollbar-button {
+    display:none;
+}
+
+@media screen and (max-width: 390px) {
+    section .box{
+        min-width: 45%;
+        min-height: 65px;
+    }
+}

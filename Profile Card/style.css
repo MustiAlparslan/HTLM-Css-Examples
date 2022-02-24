@@ -1,0 +1,84 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background-color: #C5C9DF;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #141A41;
+    width: 270px;
+    height: 471px;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .box{
+    height: 379px;
+    border-radius: 24px;    
+    background: #fff;
+    padding: 56px 37px;
+}
+.container .box .main {
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container .box .main .profile {
+    margin-bottom: 24px;
+}
+
+.container .box .main .name {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #141A41;
+}
+
+.container .box .bars {
+    display: flex;
+    justify-content: end;
+}
+.container .box .bars i:hover{
+    cursor: pointer;
+}
+
+.container .box  .location{
+    margin-bottom: 37px;
+}
+.container .box  .location:last-child{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container .box   .vievcontent a{
+    width: 126px;
+    height: 37px;
+    display: inline-flex;
+    background-color: #141A41;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.container .box   .vievcontent a:hover{
+    background-color: #fff;
+    color: #141A41;
+    border: 1px solid #141A41;
+}

@@ -1,0 +1,111 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    outline: 0;
+    box-sizing: border-box;
+}
+.label-bell{
+    width: 83px;
+    height: 83px;
+    background-color: #0C0E41;
+    border-radius: 83px;
+    display: block;
+    position: relative;
+    i{
+        position: absolute;
+        left: 22px;
+        top: 17px;
+        color: #fff;
+        font-size: 44px;
+    }
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+input[type=checkbox]{
+    visibility: hidden;
+}
+input[type=checkbox]:checked + .container-center .container{
+    display: block;
+}
+
+body{
+    background-color: #F5F6FF;
+   
+    .container-center{
+        display: flex;
+        justify-content: center;
+    }
+    .container {
+        width: 696px;
+        height: 305px;
+        background-color: #fff;
+        border-radius: 16px;
+        padding: 40px;
+        box-shadow:0 1px 7px 2px rgba(#000, 0.2);
+        display: none;
+        .title{
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+        .content{
+            display: flex;
+            gap: 24px;
+            align-items: center;
+            margin-bottom: 29px;
+            .pink-box{
+                width: 89px;
+                height: 89px;
+                background-color: #FFE9F2;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 5px;
+                i{
+                    font-size: 35px;
+                    color: #C83974;
+                }
+            }
+            .text{
+                p:first-child{
+                    margin-bottom: 8px;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                p:last-child{
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+            }
+        }
+        .buttons{
+            display: flex;
+            justify-content: center;
+            gap: 18px;
+            a{
+                display: block;
+                width: 137px;
+                height: 50px;
+                border-radius: 34px;
+                color: #205195;
+                border: 1px solid #205195;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+                font-size: 18px;
+                font-weight: 600;
+                &:hover{
+                    background-color: #205195;
+                    color: #fff;
+                }
+            }
+        }
+    
+    }
+}

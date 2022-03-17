@@ -1,0 +1,154 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: #F4EDFF;
+}
+
+.hover-cursor, .container .horizontal-container .main-box .close-button span:hover, .container .horizontal-container .main-box .link .notification-color-box:hover {
+  cursor: pointer;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container .horizontal-container {
+  background-color: #CD8AFF;
+  width: 713px;
+  height: 175px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 30px;
+}
+
+.container .horizontal-container .main-box {
+  background-color: #fff;
+  width: 550px;
+  height: 297px;
+  border-radius: 24px;
+  padding: 33px  32px 46px 72px;
+}
+
+.container .horizontal-container .main-box .close-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.container .horizontal-container .main-box .close-button span {
+  background-color: #F4EDFF;
+  width: 64px;
+  height: 64px;
+  border-radius: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .horizontal-container .main-box .close-button span i {
+  font-size: 44px;
+  color: #ccc;
+}
+
+.container .horizontal-container .main-box .title p {
+  font-size: 24px;
+  font-weight: 600;
+  color: #38196B;
+}
+
+.container .horizontal-container .main-box .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  margin-bottom: 7px;
+}
+
+.container .horizontal-container .main-box .link .notification-color-box {
+  width: 58px;
+  height: 58px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9AB0FF), to(#EB73FF));
+  background: linear-gradient(#9AB0FF, #EB73FF);
+  border-radius: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .horizontal-container .main-box .link .notification-color-box i {
+  font-size: 34px;
+  color: #fff;
+}
+
+.container .horizontal-container .main-box .link .notification-color-box p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.container .horizontal-container .main-box .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  gap: 16px;
+}
+
+.container .horizontal-container .main-box .buttons .first-a {
+  border: 1px solid #FFB2B2;
+  color: #FF1212;
+}
+
+.container .horizontal-container .main-box .buttons .second-a {
+  color: #0ABE31;
+  border: 1px solid #9EEBAF;
+}
+
+.container .horizontal-container .main-box .buttons a {
+  width: 97px;
+  height: 51px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 14px 24px 12px 24px;
+}
+/*# sourceMappingURL=main.css.map */

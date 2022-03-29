@@ -8,8 +8,8 @@ I found these examples from the design pages and made them to improve myself, I 
 -Subscribe Card
 ![subscribeCard](https://user-images.githubusercontent.com/98889289/160671692-76f99db1-aee6-4ae2-bd1f-94632cedf218.png)
 
--Spotify Clone - Home Page
 ![homePage](https://user-images.githubusercontent.com/98889289/160671825-054dfda3-24e8-43fb-9958-ac7b90b1799a.png)
+-Spotify Clone - Home Page
 
 -Spotify Clone - Main Page
 ![mainPage](https://user-images.githubusercontent.com/98889289/160671871-8fea6afb-b3ed-4d51-9637-400dc9f95b9d.png)

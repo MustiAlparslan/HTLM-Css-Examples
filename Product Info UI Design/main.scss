@@ -1,0 +1,119 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+$color: #191847;
+
+body{
+    background: #E5E5E5;
+}
+
+.container{
+    background: #fff;
+    width: 887px;
+    height: 661px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 82px;
+    display: flex;
+    box-shadow: 0px 24px 28px 9px rgba(179, 193, 217, 0.33);
+   
+    main{
+        margin-left: 30px;
+        .t-1{
+            width: 113px;
+            height: 29px;
+            border-radius: 20px;
+            background-color: $color;
+            color: #fff;
+            text-align: center;
+            line-height: 27px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .info{
+            font-size: 24px;
+            font-weight: 600;
+            color: $color;
+            margin-bottom: 32px;
+        }
+        .o-v{
+            font-size: 18px;
+            color: $color;
+            font-weight: 400;
+            text-decoration: line-through;
+        }
+        h1{
+            font-size: 48px;
+            font-weight: 700;
+            color: $color;
+        }   
+        .t-2{
+            font-size: 14px;
+            font-weight: 400;
+            color: #19184762;
+            margin-bottom: 32px;
+            
+        }
+        .a-t-c{
+            width: 100%;
+            height: 59px;
+            background-color: #4788E9;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 32px;
+            color: #fff;
+            outline: none;
+            border: none;
+            border-radius: 8px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        .t-3{
+            display: flex;
+            gap: 10px;
+            .elips{
+                width: 13px;
+                height: 13px;
+                background-color: #00D98B;
+                border-radius: 13px;
+            }
+            .t-3-1{
+                color: #000;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+        .btns{
+            display: flex;
+            justify-content: space-between;
+            margin-top:32px;
+            button{
+                width: 45%;
+                height: 64px;
+                background-color: #fff;
+                color: $color;
+                font-size: 18px;
+                font-weight: 500;
+                outline: none;
+                border: 1px solid #191847;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                justify-content: center;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

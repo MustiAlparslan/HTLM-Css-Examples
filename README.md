@@ -49,5 +49,6 @@ I found these examples from the design pages and made them to improve myself, I 
 ![cardUIdesign](https://user-images.githubusercontent.com/98889289/160672533-ef84a131-b832-478a-b603-a4ca1ff28dc4.png)
 
 -Product Info UI Design
-![Product Info UI Design](https://user-images.githubusercontent.com/98889289/161285712-374f1126-35fe-41e5-ba46-8d71dc3cbdb5.png)
+![Product Info UI Design](https://user-images.githubusercontent.com/98889289/161390776-2b67f9a6-0a81-420e-8a71-542e72fd5a21.png)
+
 
